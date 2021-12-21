@@ -15,15 +15,16 @@
 }
 
 header{
-    max-width: 100vw;
+    max-width: 100%;
     border: 1px solid red;
+    background-color: #FFFFFF;
 }
 
 .row1_header{
     max-width: 600px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     padding: 0 30px;
-    line-height: 22px;
+    float: left;
 }
 
 .row1_header .logo_header{
@@ -33,19 +34,41 @@ header{
     vertical-align: middle;
 }    
 
-.row1_header .menu_header_sx{
+.row1_header .menu_header{
     display: inline-block;
     padding: 10px 0;
     vertical-align: middle;
 }
 
-.menu_header_sx li{
+.menu_header li{
     list-style: none;
     display: inline-block;
 } 
 
-.menu_header_sx li a{
-    padding: 0 10px;
+.menu_header li a{
+    padding: 0px 10px;
     text-decoration: none;
     color: currentColor;
+}
+
+.row2_header{
+    max-width: 550px;
+    /* border: 1px solid blue; */
+    padding: 0 30px;
+    float: right;
+
+}
+
+.button_header{
+    display: inline-block;
+}
+
+.menu_header #button_header{
+    padding: 5px;
+    background-color: #0061FF;
+    color: white;
+}
+
+.row2_header .menu_header{
+    padding: 5px 0;
 }
