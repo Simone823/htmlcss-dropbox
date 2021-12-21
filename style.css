@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+/* Clearfix */
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
 header{
     max-width: 100vw;
     border: 1px solid red;
