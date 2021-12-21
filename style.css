@@ -109,7 +109,7 @@ section.bkg_blu_chiaro{
     width: 250px;
     background-color: #0061FF;
     padding: 10px;
-    
+    text-align: center;
 }
 
 .button_blue_large a{
