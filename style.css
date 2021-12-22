@@ -151,9 +151,9 @@ section.bkg_blu_chiaro{
 
 .row_2_section2{
     width: 100%;
-    border: 1px solid magenta;
+    /* border: 1px solid magenta; */
     margin-top: 30px;
-    margin-left: -20px;
+    margin-bottom: 40px;
 }
 
 .col_1-3{
@@ -171,6 +171,7 @@ section.bkg_blu_chiaro{
 
 .type_subscriptions{
     width: 300px;
+    min-height: 1150px;
     border: 1px solid grey;
     margin: 0 auto;
 }
@@ -241,4 +242,42 @@ section.bkg_blu_chiaro{
 
 .footer_col ul li i{
     color: #0061FF;
+}
+
+.contact_subscriptions{
+    width: 1000px;
+    border: 1px solid grey;
+}
+
+.contact_subscriptions .title_contact{
+    width: 100%;
+    border-bottom: 1px solid grey;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.contact_subscriptions h2{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.contact_subscriptions h4{
+    margin-bottom: 25px;
+}
+
+.contact_subscriptions a{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: #0061FF;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 30px;
+}
+
+.contact_subscriptions .contact_details{
+    width: 100%;
+    position: relative;
+    padding: 10px 25px;
 }
