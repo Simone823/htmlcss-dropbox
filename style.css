@@ -127,3 +127,43 @@ section.bkg_blu_chiaro{
 .img_section1 img{
     width: 100%;
 }
+
+.container_subscriptions{
+    width: 1000px;
+    border: 1px solid orange;
+    margin: 30px auto;
+}
+
+.row_1_section2{
+    width: 700px;
+    /* border: 1px solid red; */
+}
+
+.row_1_section2 h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.row_1_section2 span{
+    margin-right: 15px;
+}
+
+.row_2_section2{
+    width: 100%;
+    border: 1px solid red;
+    margin-top: 30px;
+}
+
+.col_1-3{
+    float: left;
+    width: calc(33.33% - 40px);
+    margin-right: 40px;
+    border: 1px solid blue;
+}
+
+.col_header{
+    width: 100%;
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
