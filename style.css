@@ -247,6 +247,7 @@ section.bkg_blu_chiaro{
 .contact_subscriptions{
     width: 1000px;
     border: 1px solid grey;
+    margin-bottom: 60px;
 }
 
 .contact_subscriptions .title_contact{
@@ -280,4 +281,52 @@ section.bkg_blu_chiaro{
     width: 100%;
     position: relative;
     padding: 10px 25px;
+}
+
+.wrapper_section3{
+    width: 1000px;
+    margin: 0 auto;
+    /* border: 1px solid orange; */
+    margin-bottom: 30px;
+}
+
+.wrapper_img{
+    width: 50%;
+    /* border: 1px solid blue; */
+    float: left;
+    margin-right: 45px;
+}
+
+.wrapper_img img{
+    width: 100%;
+    display: block;
+}
+
+.wrapper_description{
+    width: 45%;
+    /* border: 1px solid magenta; */
+    float: left;
+    margin-top: 40px;
+}
+
+.wrapper_description h4{
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.wrapper_description p{
+    margin-bottom: 20px;
+}
+
+.button_wrapper{
+    border: 2px solid black;
+    padding: 5px;
+    width: 180px;
+    text-align: center;
+}
+
+.button_wrapper a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
 }
