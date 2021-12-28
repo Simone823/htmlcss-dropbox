@@ -525,3 +525,35 @@ section.bkg_blu_chiaro{
     float: right;
 }
 
+.questions{
+    width: 1000px;
+    /* border: 1px solid red; */
+    margin: 100px auto;
+    padding: 10px;
+}
+
+.questions h5{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.questions ul li{
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.questions ul li i{
+    float: right;
+    margin-right: 20px;
+}
+
+.questions ul li::after, .questions h5::after{
+    content: '';
+    display: block;
+    clear: both;
+    width: 100%;
+    height: 1px;
+    background-color: #dedee0;
+    margin-top: 30px;
+}
