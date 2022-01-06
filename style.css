@@ -19,6 +19,10 @@
     text-decoration: underline;
 }
 
+.button_blue_large:hover{
+    background-color: #3B85FF;
+}
+
 
 /* ------------------------- */
 
