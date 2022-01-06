@@ -39,6 +39,14 @@
     color: #0000ff;
 }
 
+.row1_section5 a:hover{
+    color: #00ff00;
+}
+
+.row3_section5 .description_section5 a:hover{
+    text-decoration: underline;
+}
+
 
 /* ------------------------- */
 
