@@ -35,6 +35,10 @@
     text-decoration: underline;
 }
 
+.descriptions_cards p a:hover{
+    color: #0000ff;
+}
+
 
 /* ------------------------- */
 
