@@ -49,7 +49,7 @@
     text-decoration: underline;
 }
 
-.col-1 ul li:hover a{
+.col-1 ul li a:hover{
     text-decoration: underline;
 }
 
@@ -100,10 +100,6 @@ header{
 
 }
 
-.button_header{
-    display: inline-block;
-}
-
 .menu_header #button_header{
     padding: 5px;
     background-color: #0061FF;
@@ -142,8 +138,8 @@ section.bkg_blu_chiaro{
     margin-bottom: 20px;
 }
 
-.text_section1 .button_blue_large{
-    margin-bottom: 10px;
+#arrow_down i{
+    font-size: 25px;
 }
 
 .button_blue_large{
@@ -151,6 +147,7 @@ section.bkg_blu_chiaro{
     background-color: #0061FF;
     padding: 10px;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .button_blue_large a{
