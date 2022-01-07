@@ -21,6 +21,7 @@
 
 .button_blue_large:hover{
     background-color: #3B85FF;
+    box-shadow: 0 0 10px #3B85FF, 0 0 15px #3B85FF;
 }
 
 .button_blue_large.full-width:hover{
@@ -29,6 +30,7 @@
 
 .contact_details a:hover{
     background-color: #3B85FF;
+    box-shadow: 0 0 10px #3B85FF, 0 0 15px #3B85FF;
 }
 
 .button_wrapper:hover a{
